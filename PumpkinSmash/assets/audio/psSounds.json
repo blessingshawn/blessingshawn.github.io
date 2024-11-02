@@ -1,0 +1,60 @@
+{
+  "resources": [
+    "psSounds.ogg",
+    "psSounds.m4a",
+    "psSounds.mp3",
+    "psSounds.ac3"
+  ],
+  "spritemap": {
+    "_1": {
+      "start": 0,
+      "end": 0.8010884353741496,
+      "loop": false
+    },
+    "_2": {
+      "start": 2,
+      "end": 2.789478458049887,
+      "loop": false
+    },
+    "_3": {
+      "start": 4,
+      "end": 4.76625850340136,
+      "loop": false
+    },
+    "_Go": {
+      "start": 6,
+      "end": 6.64920634920635,
+      "loop": false
+    },
+    "Applause": {
+      "start": 8,
+      "end": 15.540861678004536,
+      "loop": false
+    },
+    "Click": {
+      "start": 17,
+      "end": 17.242766439909296,
+      "loop": false
+    },
+    "Evil_Laugh": {
+      "start": 19,
+      "end": 23.100997732426304,
+      "loop": false
+    },
+    "Evil_laugh2": {
+      "start": 25,
+      "end": 28.660204081632653,
+      "loop": false
+    },
+    "GumPop": {
+      "start": 30,
+      "end": 31.328004535147393,
+      "loop": false
+    },
+    "Kid_Laugh": {
+      "start": 33,
+      "end": 35.207732426303856,
+      "loop": false
+    }
+  }
+}
