@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>MyPac - A Pac Demo Game</title>
+	<script src="lib/phaser.js"></script>
+	<script src="lib/PathFinderPlugin.js"></script>
+	<script src="lib/easystar-0.1.5.js"></script>
+	
+    <script src="src/Boot.js"></script>
+    <script src="src/Preloader.js"></script>
+	<script src="src/MainMenu.js"></script>
+	<script src="src/game.js"></script>
+</head>
+<body>
+
+<div id="gameContainer"></div>    
+<script type="text/javascript">
+
+(function () {
+
+	var width = navigator.isCocoonJS ? window.innerWidth : 1280;
+    var height = navigator.isCocoonJS ? window.innerHeight : 720;
+
+	//	No parameters given, which means no default state is created or started
+    var game = new Phaser.Game(width, height, Phaser.CANVAS, 'gameContainer');
+
+    game.state.add('boot', TestGame.Boot, true);
+    
+	game.state.add('preloader', TestGame.Preloader);
+    //game.state.add('test', TestGame.Test);
+    //game.state.add('test2', TestGame.Test2);
+	game.state.add('mainmenu', TestGame.MainMenu);
+	game.state.add('game', TestGame.Game);
+
+
+})();
+
+</script>
+
+</body>
+
+</html>
